@@ -473,7 +473,8 @@ p
 h1{ 
         font-size: 5rem;
         line-height: 5.43rem;
-        width: 250px;
+        width: 350px;
+        text-align: right;
 }
     
 h2 {
@@ -712,11 +713,11 @@ footer button {
 }
 
 footer span {
-    font-size: 1.15rem;
+    font-size: 1.75rem;
 }
 
 footer .contact p span {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: right;
 }
 
@@ -747,9 +748,9 @@ p
 }
     
 h1{ 
-        font-size: 7rem;
-        line-height: 7.43rem;
-        width: 400px;
+        font-size: 9rem;
+        line-height: 9.43rem;
+        width: 550px;
 }
     
 h2 {
