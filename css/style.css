@@ -1,3 +1,4 @@
+/*MEGAN RANTZ*/
 /* 
 STANDARD RESET
 http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126License: none (public domain)
@@ -478,8 +479,8 @@ h3 {
 }
     
 button {
-        font-size: 2.5rem;
-        line-height: 3rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
         padding: 10px 25px;
 }
     
@@ -492,6 +493,10 @@ nav {
 Header on Desktop
 ~~~~~~~~~~~~~~~~~~~~~~~
 */
+header {
+    position: relative;
+}
+
 header nav{
     height: 55px;
 }
@@ -500,7 +505,7 @@ header nav{
     float: left;
     width: calc(100% - 160px);
     position: relative;
-    padding: 150px 0 180px 0;
+    padding: 135px 0 135px 0;
 }
 
 .headerContent div {
@@ -531,8 +536,8 @@ header nav li:first-of-type {
 
 .socials {
     position: absolute;
-    bottom: 230px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
 }
 
 .socials li{
@@ -553,7 +558,6 @@ Main Content First Section on Desktop
 */
 
 .mainImg {
-    height: 250px;
     width: 250px;
     float: left;
 }
@@ -571,10 +575,6 @@ Main Content First Section on Desktop
     float: none;
     width: calc(100% - 260px);
     margin-left: 270px;
-}
-
-.main button {
-    margin-top: 25px;
 }
 
 .main div.wrapper {
@@ -616,23 +616,6 @@ Quick Link Section on Desktop
     width: 33%;
 }
 
-.quickLink i {
-    width: 100%;
-    font-size: 6rem;
-}
-
-.quickLink:first-child {
-    padding-top: 70px;
-}
-
-.quickLink:last-child {
-    padding-bottom: 40px;
-}
-
-.quickLink h2 {
-    padding-top: 20px;
-}
-
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~
 Blog Section on Desktop
@@ -666,7 +649,6 @@ Blog Section on Desktop
 }
 
 .blog button {
-    margin-top: 30px;
     margin: 40px 0 0 0;
 }
 
@@ -690,20 +672,30 @@ footer nav {
     display: inline-block;
 }
 
-footer div div, footer nav {
+.footerWrap{
+    position: relative;
+}
+
+footer nav {
     float: left;
 }
 
-.input {
-    margin: 0 10px 0 65px;
-    width: 55%;
+footer .input {
+    float: right; 
+    margin-right: 166px;
 }
+
 footer input {
-    font-size: 2.5rem;
-    line-height: 42px;
-    width: 60%;
+    font-size: 1.15rem;
+    line-height: 37px;
+    width: 50%;
     margin: 25px 0;
     float: left;
+}
+
+footer h2 {
+    margin-top: 42px;
+    font-size: 3rem;
 }
 
 footer button {
@@ -712,16 +704,19 @@ footer button {
 }
 
 footer span {
-    font-size: 1.75rem;
+    font-size: 1.15rem;
 }
 
 footer .contact p span {
-    font-size: 1.35rem;
+    font-size: 1rem;
     text-align: right;
 }
 
 .contact {
     margin-top: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 }
@@ -755,20 +750,29 @@ h2 {
 }
     
 h3 {
-        font-size: 3em;
         padding: 40px 0 20px 0;
-        text-align: right;
 }
     
 button {
         font-size: 2.5rem;
         line-height: 3rem;
-        padding: 10px 25px;
 }
-    
-nav {
-        font-size: 1.75em;
-        line-height: 2.5rem;
+
+.headerContent {
+    padding: 200px 0 200px 0;
+}
+
+.headerContent div {
+    width: 450px;
+}
+
+footer .input {
+    width: 55%;
+    margin-right: 130px;
+}
+
+footer input {
+    line-height: 42px;
 }
 
 }
