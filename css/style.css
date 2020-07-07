@@ -107,6 +107,10 @@ MOBILE FIRST
     max-width: 1200px;
     margin: auto;
 }
+
+i {
+    cursor: pointer;
+}
 /*General Font/Text*/
 html   {
     color: white;
@@ -158,6 +162,11 @@ button {
     border: none;
     color: white;
     padding: 15px 40px;
+}
+
+button:hover {
+    background-color: white;
+    color: #500801;
 }
 
 nav {
@@ -656,7 +665,6 @@ Blog Section on Desktop
     text-align: left;
     padding-bottom: 30px;
 }
-
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~
 Footer Section on Desktop
@@ -724,7 +732,7 @@ footer .contact p span {
 /*********************
 ~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~
-TABLET
+HUGE DESKTOP
 ~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~
 *********************/
